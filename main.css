@@ -1,0 +1,221 @@
+@font-face {
+    font-family: HylianZelda;
+    src: url(./fonts/HyliaSerifBeta-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Breathfont;
+    src: url(./fonts/The\ Wild\ Breath\ of\ Zelda.otf)format('opentype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'HylianZelda', normal;
+    font-weight: normal;
+}
+
+section p{
+    font-family: 'Cinzel', serif;;
+    font-weight: normal;
+}
+
+header{
+    padding: 32px 0;
+    background-color: rgb(106, 155, 138);
+    color: #f1af09;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a{
+    color: #f1af09;
+    text-decoration: none;
+}
+
+.conteiner,
+.article, section .conteiner{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+header .conteiner,
+section .conteiner,
+section .article{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .article{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact .conteiner{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+
+.article article img{
+    height: 180px;
+}
+
+
+.article .triforcer img{
+    height: 50%;
+    }
+
+.article article{
+    width: 30%;
+}
+
+section a{
+    text-decoration: none;
+}
+
+
+section .zeldatri{
+    height: 400px;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+
+input:focus, textarea:focus{
+    outline-color: #f1af09;
+}
+
+section{
+    background-color: black;
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 8px;
+}
+
+section .article{
+    background-color: rgb(37, 37, 37);
+}
+
+section .conteiner{
+    color: #f1af09;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.zeldatri{
+    margin-right: 32px;
+}
+
+section h2{
+    color: #f1af09;
+}
+
+section .princzelda h3{
+    color: rgb(0, 132, 255);
+}
+section .princzelda p{
+    color: #f1af09;
+}
+
+section .link h3{
+    color: rgb(44, 148, 44);
+}
+section .link p{
+    color: #f1af09;
+}
+
+section .ganon h3{
+    color: red;
+}
+section .ganon p{
+    color: #f1af09;
+}
+
+section .triforcer h3{
+    color: #f1af09;
+}
+section .triforcer p{
+    color: #ffc430;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #f1af09;
+}
+
+.article article a{
+    color: aquamarine;
+}
+
+footer{
+    background-color: aquamarine;
+    color: #f1af09;
+    padding: 16px 0;
+}
